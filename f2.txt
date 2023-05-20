@@ -1,0 +1,32 @@
+The major difference between git merge and git rebase lies in how they integrate changes from one branch into another.
+
+git merge: This command combines changes from one branch into another branch. When you perform a merge, Git creates a new commit that incorporates the changes from the merged branch while preserving the commit history of both branches. The resulting commit has multiple parents, representing the branch's divergence and subsequent merge.
+
+Key points about git merge:
+
+Merge commits retain the original commit history of both branches.
+Merge commits introduce a merge commit message by default.
+The branch being merged into remains unaltered.
+git rebase: This command integrates changes from one branch into another by applying each commit of the rebased branch on top of the target branch. It essentially moves the entire branch to a new base commit. When you rebase, Git replays the commits on top of the target branch, resulting in a linear commit history without merge commits.
+
+Key points about git rebase:
+
+Rebase modifies the commit history of the rebased branch.
+Rebase creates new commits with new commit IDs.
+The rebased branch appears as a continuous series of commits on top of the target branch.
+It can be used to maintain a cleaner and more linear commit history.
+When to use git merge:
+
+Merge is suitable for integrating feature branches or long-running branches into the main branch (e.g., merging a feature branch into the development branch).
+Merge is useful when preserving the individual branch histories and merge commits are acceptable.
+When to use git rebase:
+
+Rebase is useful when you want to incorporate changes from one branch onto another branch with a cleaner and linear commit history.
+Rebase is commonly used to update a feature branch with the latest changes from the main branch before merging it (e.g., rebasing a feature branch onto the latest commit of the development branch).
+It's important to note that while git rebase can provide a cleaner commit history, it should be used with caution when working with shared branches or in situations where the commit history has already been pushed to a remote repository.
+
+
+
+
+
+
