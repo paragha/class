@@ -1,0 +1,34 @@
+sic Shape Names
+Here is the list of 30 names of shapes (geometric shapes) in English:
+
+Nonagon
+Octagon
+Heptagon
+Hexagon
+Triangle
+Scalene triangle
+Right triangle
+Parallelogram
+Rhombus
+Square
+Pentagon
+Circle
+Oval
+Heart
+Cross
+Arrow
+Cube
+Cylinder
+Star
+Crescent
+Trapezoid
+Diamond
+Decagon
+Multiplication
+Minus
+Plus
+Ellipse
+Semi-circle
+Trefoil
+Ring
+
